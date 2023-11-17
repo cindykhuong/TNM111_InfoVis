@@ -1,0 +1,132 @@
+
+.node {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.link {
+  stroke: #545454;
+  stroke-width: 1.5px;
+}
+
+#container{
+display: flex;
+
+}
+#content{
+position: relative;
+background-color: #000;
+z-index: 0;
+}
+
+div.tooltip-info {
+position: absolute;
+text-align: center;
+padding: .5rem;
+background: #FFFFFF;
+color: #313639;
+border: 1px solid #313639;
+border-radius: 8px;
+pointer-events: none;
+font-size: 1.1rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+}
+
+#diagram1{
+padding: 1%;
+width: 50%;
+height: 570px;
+box-shadow: 0 9px 10px rgba(229, 228, 228, 0.333);  
+
+}
+
+#diagram2{
+width: 50%;
+height: 570px;
+padding: 1%;
+box-shadow: 0 9px 10px rgba(229, 228, 228, 0.333); 
+
+
+}
+
+.header{
+position: absolute;
+width:30%;
+height: 100px;
+z-index: -5;
+margin-top: 10px;
+margin-left: 115px;
+
+}
+
+.header-text{
+text-align: center;
+color: #FFE81F;
+font-family: 'Russo One';
+font-size: 22px;
+font-weight: bold;
+line-height: 32px; 
+margin: 0 0 15px; 
+text-align: center;
+}
+
+#control-panel {
+position: absolute;
+width:20%;
+height: 130px;
+box-shadow: 0 3px 10px rgba(229, 228, 228, 0.333);
+z-index: -10;
+margin-top: 440px;
+margin-left: 350px;
+background-color: #1a1a1a;
+}
+
+#control-text{
+text-align: center;
+color:  #FFE81F;
+font-family: 'Russo One';
+font-size: 18px;
+font-weight: bold;
+line-height: 32px; 
+margin: 0 0 15px; 
+text-align: center;
+}
+#filter-text{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: -10px;
+text-align: center;
+color:  #fff;
+}
+
+
+/*SLIDER*/
+svg {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+
+rect.overlay {
+stroke: white;
+}
+
+rect.selection {
+stroke: none;
+fill: #FFE81F;
+fill-opacity: 0.9;
+}
+
+#labelleft, #labelright {
+dominant-baseline: hanging;
+font-size: 14px;
+fill: #fff;
+}
+
+#labelleft {
+text-anchor:end;
+}
+
+#labelright {
+text-anchor: start;
+}
